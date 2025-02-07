@@ -1,0 +1,71 @@
+- !<AssetImportMetadata/26a28e1a-0fad-4bb7-879e-32f221f30154>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 43a2146b-c810-424a-9aeb-d05a4a0267ea
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 43a2146b-c810-424a-9aeb-d05a4a0267ea
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4239856d-ab45-4dba-b86e-66eedfc647eb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/ee6f2b5b-24c2-4eb2-9a47-4ab000a91736>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4239856d-ab45-4dba-b86e-66eedfc647eb>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 38f4648b-a501-4055-951b-9c4d7a2290ac
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    BackButtonObj: false
+    BaitGUICategoriesObj: false
+    NextButtonObj: false
+    OrderButtonObj: false
+    OrderTimerObj: false
+    burgerObj: false
+    hotdogObj: false
+    pizzaObj: false
+    textGUIObj: false
+    textGUIPrice: false
+    textGuiDescription: false
+    textGuiTitle: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - pizzaObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      burgerObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hotdogObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      textGuiTitle: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      textGuiDescription: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      textGUIPrice: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      textGUIObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      NextButtonObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      BackButtonObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      OrderTimerObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      OrderButtonObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      BaitGUICategoriesObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject pizzaObj
+    - // @input SceneObject burgerObj
+    - // @input SceneObject hotdogObj
+    - // @input Component.Text textGuiTitle
+    - // @input Component.Text textGuiDescription
+    - // @input Component.Text textGUIPrice
+    - // @input SceneObject textGUIObj
+    - // @input SceneObject NextButtonObj
+    - // @input SceneObject OrderButtonObj
+    - // @input SceneObject BackButtonObj
+    - // @input SceneObject OrderTimerObj
+    - // @input SceneObject BaitGUICategoriesObj

@@ -1,0 +1,41 @@
+- !<AssetImportMetadata/24a09c49-9e41-4922-8957-a0e562b03545>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a550b8d5-3402-4152-a091-b618d71949f7
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a550b8d5-3402-4152-a091-b618d71949f7
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> c3231713-d285-4ea9-9345-9c4bbd1d163f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/d03b0811-4815-4cdd-8418-3ce887d15f57>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c3231713-d285-4ea9-9345-9c4bbd1d163f>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 74b449af-bec1-4451-9dd9-f14a84c63244
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    meshVisual: false
+    timerText: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - timerText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      meshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Text timerText
+    - // @input Component.RenderMeshVisual meshVisual

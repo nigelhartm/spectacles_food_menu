@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/bb5bac26-0116-4802-b986-f1681a9718b9>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 85010a6a-856f-405a-a712-1d506a97b194
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 85010a6a-856f-405a-a712-1d506a97b194
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 50219f1a-1d2d-4a2d-a0dd-29805f5ea313
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/68ff2fe6-e9ca-4532-9a70-86f03bd0611e>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/50219f1a-1d2d-4a2d-a0dd-29805f5ea313>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b9c28c7a-fa98-4234-8682-7f2c0bd10392
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    burgerObj: false
+    hotdogObj: false
+    pizzaObj: false
+    textGUIPrice: false
+    textGuiDescription: false
+    textGuiTitle: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - pizzaObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      burgerObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      textGuiTitle: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      textGuiDescription: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      textGUIPrice: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      hotdogObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject pizzaObj
+    - // @input SceneObject burgerObj
+    - // @input SceneObject hotdogObj
+    - // @input Component.Text textGuiTitle
+    - // @input Component.Text textGuiDescription
+    - // @input Component.Text textGUIPrice
